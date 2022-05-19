@@ -1,1 +1,17 @@
 .margins{margin: 20px;}
+p {font-size:20px}
+ul {font-size:20px}
+h2 {color:#1E84BD}
+body {background-color:lightgray;}
+
+.navbar-custom {
+    background-color: white;
+}
+.button-custom {background-color: #1E84BD !important;
+                color: white !important
+    }
+
+@media (max-width: 991px){
+    .navbar-custom{
+    background-color: #1E84BD;}
+}
