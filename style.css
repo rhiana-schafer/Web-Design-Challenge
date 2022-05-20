@@ -4,6 +4,8 @@ ul {font-size:20px}
 h2 {color:#1E84BD}
 body {background-color:lightgray;}
 
+.pagebox {background-color: white;
+            margin: 20px}
 .navbar-custom {
     background-color: white;
 }
@@ -13,5 +15,9 @@ body {background-color:lightgray;}
 
 @media (max-width: 991px){
     .navbar-custom{
-    background-color: #1E84BD;}
+    background-color: #1E84BD;
+    }
+    .pagebox {background-color: white;
+        margin: 0px
+    }
 }
